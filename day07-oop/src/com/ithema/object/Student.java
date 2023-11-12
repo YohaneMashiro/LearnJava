@@ -1,6 +1,7 @@
 package com.ithema.object;
 
 public class Student {
+    //成员变量
     String name;
     double cn;
     double math;
