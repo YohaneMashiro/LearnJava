@@ -1,0 +1,32 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   VariableDemo2.java
+
+package com.ithema.variable;
+
+import java.io.PrintStream;
+
+public class VariableDemo2
+{
+
+    public VariableDemo2()
+    {
+    }
+
+    public static void main(String args[])
+    {
+        byte a = 127;
+        short s = 12344;
+        int i = 0x67218;
+        long lg = 0x8bd03834L;
+        float f = 3.14F;
+        double d = 56.450000000000003D;
+        char ch = 'a';
+        char ch2 = '\u4E2D';
+        boolean fg = true;
+        boolean fg2 = false;
+        String name = "\u5F20\u4E09";
+        System.out.println(name);
+    }
+}
